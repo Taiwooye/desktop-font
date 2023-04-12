@@ -33,6 +33,7 @@
     border-radius: 8%;
 }
 
+
 .love:hover .image {
     animation-play-state: running;
 }
@@ -152,4 +153,35 @@ p{
     font-weight: 600;
     padding: 0;
     color: black;
+}
+
+@media(max-width: 768px){
+   
+    .child{
+       
+        background-image: url(./image/sweater.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       border-radius: 20px;
+       height: 100vh;
+        width: 100%;
+    }
+
+    .first{
+        display: flex;
+        padding: 15px 25px;
+        justify-content: space-between;
+    }
+    .worry{
+        position: relative;
+        width: 50%;
+        height: 25vh;
+    }
+
+    .love{
+        position: relative;
+        width: 50%;
+        height: 25vh;
+    }
 }
