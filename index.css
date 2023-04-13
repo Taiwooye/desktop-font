@@ -23,6 +23,16 @@
    height: 90vh;
     width: 30%;
 }
+.third-child{
+    background-image: url(./image/sweater7.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   border-radius: 20px;
+   height: 90vh;
+    width: 30%;
+}
+
 .love{
     position: relative;
     width: 45%;
@@ -258,5 +268,14 @@ p{
        border-radius: 20px;
        max-height: 95vh;
         width: 100%;
+    }
+    .third-child{
+        background-image: url(./image/quote3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        max-height: 95vh;
+         width: 100%;
     }
 }
